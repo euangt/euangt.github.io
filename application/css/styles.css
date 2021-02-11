@@ -2,9 +2,10 @@
 @import "./components/index.css";
 
 html {
-  background-image: url("../images/landscape_background.jpg");
+  background-image: url("../images/alternate.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   scroll-behavior: smooth;
 }
+

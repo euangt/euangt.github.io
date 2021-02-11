@@ -1,5 +1,5 @@
 .name-banner {
-  color: white;
+  color: #dbe2ef;
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
   word-break: normal;
@@ -7,7 +7,7 @@
 }
 
 .description {
-  color: white;
+  color: #dbe2ef;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
 }
@@ -19,7 +19,7 @@
 }
 
 .section-title {
-  color: white;
+  color: #dbe2ef;
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   text-align: center;

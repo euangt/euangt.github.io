@@ -15,7 +15,7 @@
   list-style-type: none;
   float: right;
   display: block;
-  color: white;
+  color: #dbe2ef;
   padding: 14px 16px;
   font-size: 1.1em;
   line-height: 32px;
@@ -37,7 +37,7 @@
   bottom: 10%;
   height: 2px;
   width: 0;
-  background-color: white;
+  background-color: #dbe2ef;
   transition: 0.2s ease-in-out;
   transition-delay: 0.6s;
   left: 50%;
@@ -49,13 +49,13 @@
   left: 0;
   right: 0;
   height: 0;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 2px solid #dbe2ef;
+  border-right: 2px solid #dbe2ef;
   transition: 0.2s;
   transition-delay: 0.4s;
 }
 .navbar_item:hover, .navbar_item.active {
-  color: white;
+  color: #dbe2ef;
 }
 .navbar_item:hover::before, .navbar_item.active::before {
   transition-delay: 0s;
@@ -78,7 +78,7 @@
   content: "";
   position: absolute;
   height: 2px;
-  background-color: white;
+  background-color: #dbe2ef;
   left: 0;
   top: 10%;
   width: 0;
@@ -109,7 +109,7 @@
 }
 .navbar_item_content::before {
   position: absolute;
-  color: white;
+  color: #dbe2ef;
   top: -1em;
   left: 0;
   right: 0;

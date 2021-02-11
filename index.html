@@ -32,48 +32,72 @@
         <div class="description">
             <h2 id="desc"></h2>
         </div>
+
+
+
     </div>
+
+
     <h3 id="projects"></h3>
     <br>
-    <h2 class="section-title" id="projects">Projects:</h2>
+    <h2 class="section-title" id="projects">What I can do:</h2>
 
     <div class="project-list">
-        <div class="project-card">
-            <a href="https://www.innermile.org/" target="_blank">
-                <h2>InnerMile</h2>
-            </a>
-            <p>Community discovery App</p>
-            <img class="project-image"
-                src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-                alt="">
+        <div class="card">
+            <div class="card-img"
+                style="background-image:url(https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a ref="https://www.innermile.org/" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-content">
+                <a href="https://www.innermile.org/" target="_blank">
+                    <h2>InnerMile</h2>
+                    <p>Community discovery App</p>
+                </a>
+            </div>
         </div>
-        <div class="project-card">
-            <a href="https://meanwhile-spaces.herokuapp.com/" target="_blank">
-                <h3>Meanwhile Spaces</h3>
-            </a>
-            <p>Space Rental Service</p>
-            <img class="project-image"
-                src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-                alt="">
+        <div class="card">
+            <div class="card-img"
+                style="background-image:url(https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a ref="https://www.innermile.org/" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="card-content">
+                <a href="https://meanwhile-spaces.herokuapp.com/" target="_blank">
+                    <h2>Meanwhile Spaces</h2>
+                    <p>Space Rental Service</p>
+                </a>
+            </div>
         </div>
-
-        <div class="project-card">
-
-            <a href="https://egt-mister-cocktail.herokuapp.com/" target="_blank">
-                <h3>The Dive Bar</h3>
-            </a>
-            <p>Cocktail creation tool</p>
-            <img class="project-image"
-                src="https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="">
+        <div class="card">
+            <div class="card-img"
+                style="background-image:url(https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <a href="https://egt-mister-cocktail.herokuapp.com/" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content">
+                <a href="https://egt-mister-cocktail.herokuapp.com/" target="_blank">
+                    <h2>The Dive Bar</h2>
+                    <p>Cocktail creation tool</p>
+                </a>
+            </div>
         </div>
-
     </div>
 
     <h3 id="experience"></h3>
     <br>
-    <h2 class="section-title" id="experience">Experience:</h2>
+    <h2 class="section-title" id="experience">What I've Done:</h2>
 
     <div class="experience-list">
         <div class="experience-card">
@@ -176,6 +200,16 @@
             if (x.className === "navbar") x.className += " responsive";
             else x.className = "navbar";
         }
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.card').delay(1800).queue(function (next) {
+                $(this).removeClass('hover');
+                $('a.hover').removeClass('hover');
+                next();
+            });
+        });
     </script>
 
 </body>
