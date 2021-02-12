@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import "./components/index.css";
 
-html {
-  background-image: url("../images/alternate.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  scroll-behavior: smooth;
-}
 

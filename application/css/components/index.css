@@ -1,11 +1,22 @@
-@import "buttons.css";
-@import "images.css";
+/* Main Sections */
+@import "split_screen.css";
 @import "body.css";
+
+/* Navigation Links */
 @import "navbar.css";
-@import "project_cards.css";
+
+/* Cards */
 @import "experience_cards.css";
+@import "trial_card.css";
+@import "project_cards.css";
 @import "contact_cards.css";
 @import "about_me.css";
-@import "responsive.css";
+
+/* Images */
+@import "images.css";
+
+/* Logos */
 @import "logos.css";
-@import "trial_card.css";
+
+/* Additional */
+@import "responsive.css";

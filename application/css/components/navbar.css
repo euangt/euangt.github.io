@@ -6,9 +6,9 @@
 
 .navbar_menu {
   display: flex;
-  width: 99%;
-  justify-content: flex-end;
-  position: fixed;
+  /* width: 99%; */
+  /* justify-content: flex-end; */
+  /* position: fixed; */
 }
 
 .navbar_item {

@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .name-banner {
   color: #dbe2ef;
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  word-break: normal;
-  width: 200px;
+  /* word-break: normal; */
+  /* width: 200px; */
 }
 
 .description {
@@ -12,11 +17,6 @@
   font-size: 28px;
 }
 
-.landing-page {
-  margin-top: 1px;
-  height: 100vh;
-  margin-left: 20px;
-}
 
 .section-title {
   color: #dbe2ef;

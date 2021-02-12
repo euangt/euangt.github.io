@@ -2,41 +2,157 @@
 <html>
 
 <head>
-    <title>Euan's Profile</title>
-    <link rel="stylesheet" type="text/css" href="./application/css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <meta name="description" content="Wales's Finest Export Since Sir Tom Jones">
+  <title>Euan's Profile</title>
+  <link rel="stylesheet" type="text/css" href="./application/css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="Wales's Finest Export Since Sir Tom Jones">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navbar_menu">
-            <a class="navbar_item" href="#projects">Projects<span class="navbar_item_hovered"></span><span
-                    class="navbar_item_content" data-content="Projects"></span></a>
-            <a class="navbar_item" href="#experience">Experience<span class="navbar_item_hovered"></span><span
-                    class="navbar_item_content" data-content="Articles"></span></a>
-            <a class="navbar_item" href="#about">About<span class="navbar_item_hovered"></span><span
-                    class="navbar_item_content" data-content="About"></span></a>
-            <a class="navbar_item navbar_item_icon" href="javascript:void(0);" onclick="navResponsive()"><i
-                    class="fa fa-bars"></i></a>
-        </div>
+
+  <div>
+    <div class="split-left">
+      <div class="name-banner">
+        <h1>Euan Gillespie Taylor</h1>
+      </div>
+      <div class="description">
+        <h2>Fullstack Developer</h2>
+      </div>
+      <div class="navbar_menu">
+        <a class="navbar_item" href="#projects">Projects<span class="navbar_item_hovered"></span><span
+            class="navbar_item_content" data-content="Projects"></span></a>
+        <a class="navbar_item" href="#experience">Experience<span class="navbar_item_hovered"></span><span
+            class="navbar_item_content" data-content="Articles"></span></a>
+        <a class="navbar_item" href="#about">About<span class="navbar_item_hovered"></span><span
+            class="navbar_item_content" data-content="About"></span></a>
+        <a class="navbar_item navbar_item_icon" href="javascript:void(0);" onclick="navResponsive()"><i
+            class="fa fa-bars"></i></a>
+      </div>
+
     </div>
-
-    <div>
-        <div class="landing-page">
-            <div class="name-banner">
-                <!-- <h1 id="name"></h1> -->
-                <h1>Euan Gillespie Taylor</h1>
+    <div class="split-right">
+      <div class="projects">
+        <h2>Portfolio</h2>
+        <div class="card">
+          <div class="card-img"
+            style="background-image:url(https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a ref="https://www.innermile.org/" target="_blank">View Project</a>
+              </div>
             </div>
-            <div class="description">
-                <h2>Fullstack Developer</h2>
-            </div>
-        </div>
-        <div>
+          </div>
 
+          <div class="card-content">
+            <a href="https://www.innermile.org/" target="_blank">
+              <h2>InnerMile</h2>
+              <p>Community discovery App</p>
+            </a>
+          </div>
         </div>
+        <div class="card">
+          <div class="card-img"
+            style="background-image:url(https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a ref="https://www.innermile.org/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <a href="https://meanwhile-spaces.herokuapp.com/" target="_blank">
+              <h2>Meanwhile Spaces</h2>
+              <p>Space Rental Service</p>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"
+            style="background-image:url(https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="https://egt-mister-cocktail.herokuapp.com/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <a href="https://egt-mister-cocktail.herokuapp.com/" target="_blank">
+              <h2>The Dive Bar</h2>
+              <p>Cocktail creation tool</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="experience">
+        <h2 class="section-title" id="experience">What I've Done:</h2>
+
+        <div class="experience-list">
+          <div class="experience-card">
+            <h2>Teaching Assistant - <em>Le Wagon</em> </h2>
+
+            <p>Jan 2020 Onwards</p>
+            <li>Teaching assistant at Le Wagon Berlin for modules related
+              to Ruby, Object Oriented Programming and MVC
+              programming and Rails architecture.</li>
+          </div>
+
+          <div class="experience-card">
+            <h2>Content Manager - <em>DES</em></h2>
+            <p>Mar - Aug 2020</p>
+            <div class="experience-flip">
+              <li>Developed marketing strategy, designing implementation and monitoring
+                frameworks.</li>
+              <li>
+                Adapted content to ensure user-engagement and conversion rates across
+                multiple mediums, including email campaigns, social media, and
+                webpage documents.
+              </li>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <h2>Technology Analyst - <em>Curation</em></h2>
+            <p>Nov 2016 - Oct 2019</p>
+
+            <li>Drove subscription rate increases in specialist Blockchain and AI analysis
+              among C-suite level clients, including BP and KPMG</li>
+            <li>Optimised editorial output and strategy through an overhaul of delivery
+              timetabling and workflows as manager of the in-house publication team.</li>
+            <li>Led design and delivery of cross-team projects, ensuring effective
+              collaboration, matching expectations and outcomes.</li>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="About">
+        <h2 class="section-title" id="about">The Backstory:</h2>
+        <div class="contact-list">
+          <!-- <div>
+            <img src="./application/images/me.png" alt="An Honorable Man" class="me">
+          </div> -->
+          <div class="contact-card">
+            <h2>Who I am</h2>
+            <p>A technology enthusiast, whether researching the newest tech or building cool apps</p>
+            <h2>What I love to work with</h2>
+            <p>Ruby on Rails; PostgreSQL; HTML5; CSS; JavaScript; Git and Github; </p>
+            <h2>Lets work together:</h2>
+            <ul class="inline_list">
+              <li><a href="https://www.linkedin.com/in/euan-gillespie-taylor" target="_blank"><i
+                    class="logos fab fa-linkedin"></i></a>
+              </li>
+              <li><a href="https://github.com/euangt/" target="_blank"><i class="logos fab fa-github-square"></i></a>
+              </li>
+              <li><a href="https://twitter.com/nobetter_taylor" target="_blank"><i
+                    class="logos fab fa-twitter-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
 
