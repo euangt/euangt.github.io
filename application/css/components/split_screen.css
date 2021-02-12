@@ -8,7 +8,7 @@
 .split-right{
   width:50%;
   height:100vh;
-  background-color: black;
+  background-color: #314e52;
   float:left;
   overflow: auto;
 }
