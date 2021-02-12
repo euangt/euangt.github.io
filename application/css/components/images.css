@@ -8,3 +8,10 @@
   border: solid 1px grey;
   margin-top: 50px;
 }
+
+.image-first {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}

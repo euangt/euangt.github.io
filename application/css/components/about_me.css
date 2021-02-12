@@ -1,0 +1,23 @@
+.about {
+  /* height: 100vh; */
+  /* margin-bottom: 500px; */
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+
+.contact-card {
+  display: inline-block;
+  padding: 16px;
+  /* height: 300px; */
+  color: #dbe2ef;
+  font-family: 'Raleway', sans-serif;
+  width: 75%;
+  text-align: center;
+
+}
+.contact-card p {
+  font-size: 24px;
+  padding: 20px;
+}

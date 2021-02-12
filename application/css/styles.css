@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import "./components/index.css";
 
+.project-slider {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-left: 25px;
+}
+.project-slider::-webkit-scrollbar {
+  /* background-color: #fdf1d6; */
+  height: 8px;
+  width: 35px;
+}
 
+.project-slider::-webkit-scrollbar-track {
+/* border-radius: 10px; */
+/* box-shadow: inset 0 0 6px rgba(0, 0, 0, .1); */
+}
+
+
+.project-slider::-webkit-scrollbar-thumb {
+background-color: #A9B7B8;
+border-radius: 10px;
+/* box-shadow:0 0 0 1px rgba(255, 255, 255, .3); */
+}

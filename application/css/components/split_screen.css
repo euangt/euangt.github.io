@@ -1,14 +1,14 @@
 .split-left{
   width:50%;
   height:100vh;
-  background-color:#cc6a45;
+  background-color:#C27A65;
   float:left;
   position: static;
 }
 .split-right{
   width:50%;
   height:100vh;
-  background-color: #C2CEC1;
+  background-color: #2b657a;
   float:left;
   overflow: auto;
 }
