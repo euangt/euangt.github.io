@@ -4,6 +4,7 @@
 
 /* Navigation Links */
 @import "navbar.css";
+@import "carousel.css";
 
 /* Cards */
 @import "experience_cards.css";
