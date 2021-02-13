@@ -24,3 +24,8 @@ background-color: #A9B7B8;
 border-radius: 10px;
 /* box-shadow:0 0 0 1px rgba(255, 255, 255, .3); */
 }
+
+.top {
+  position: sticky;
+  top: 0;
+}
