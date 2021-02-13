@@ -4,6 +4,10 @@
   
 }
 
+.logos:hover {
+  /* color: #719CA8; */
+}
+
 .inline_list>li {
   display: inline;
   padding-right: 10px;
