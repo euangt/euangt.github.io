@@ -21,3 +21,22 @@
   font-size: 24px;
   padding: 20px;
 }
+
+.skill-boxes {
+  display: inline-block;
+}
+
+.skill-boxes p {
+  color: white;
+    font-size: 19px;
+    /* margin: 4px; */
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: inline-block;
+}
