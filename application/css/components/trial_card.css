@@ -75,8 +75,8 @@
   color: #A9B7B8;
 }
 .card-content a h2 {
-  color: #A9B7B8;
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 600;
   font-size: 20px;
   /* justify-content: center; */
   padding: 5px;
@@ -86,8 +86,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #A9B7B8;
-  font-weight: 500;
+  color: white;
+  font-weight: normal;
   font-size: 16px;
   padding: 5px;
 }
